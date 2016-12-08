@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DHSepatateTextField.h"
+#import "DHSeparateTextField.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    DHSepatateTextField *textField = [DHSepatateTextField textFieldWithSquareAmount:5];
+    DHSeparateTextField *textField = [DHSeparateTextField textFieldWithSquareAmount:5];
     textField.frame = CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, 200);
     textField.squareAmount = 5;
     [textField setFinishEdit:^(NSString *str) {

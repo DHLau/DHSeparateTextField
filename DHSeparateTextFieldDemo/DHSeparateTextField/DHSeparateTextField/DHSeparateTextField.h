@@ -1,5 +1,5 @@
 //
-//  DHSepatateTextField.h
+//  DHSeparateTextField.h
 //  DHSeparateTextField
 //
 //  Created by DHLau on 16/8/24.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DHSepatateTextField : UIView
+@interface DHSeparateTextField : UIView
 
 + (instancetype)textFieldWithSquareAmount:(NSInteger)squareAmount;
 

@@ -15,7 +15,7 @@
 		E918DE901DF8EF4900A29E8C /* DHSeparateTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E918DE8F1DF8EF4900A29E8C /* DHSeparateTextFieldUITests.m */; };
 		E918DEA41DF8EFCA00A29E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E918DEA11DF8EFCA00A29E8C /* AppDelegate.m */; };
 		E918DEA51DF8EFCA00A29E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E918DEA31DF8EFCA00A29E8C /* ViewController.m */; };
-		E918DEAC1DF8F76000A29E8C /* DHSepatateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E918DEAB1DF8F76000A29E8C /* DHSepatateTextField.m */; };
+		E918DEB01DF8FAFC00A29E8C /* DHSeparateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E918DEAF1DF8FAFC00A29E8C /* DHSeparateTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		E918DEA11DF8EFCA00A29E8C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E918DEA21DF8EFCA00A29E8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E918DEA31DF8EFCA00A29E8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E918DEAA1DF8F76000A29E8C /* DHSepatateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSepatateTextField.h; sourceTree = "<group>"; };
-		E918DEAB1DF8F76000A29E8C /* DHSepatateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSepatateTextField.m; sourceTree = "<group>"; };
+		E918DEAE1DF8FAFC00A29E8C /* DHSeparateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSeparateTextField.h; sourceTree = "<group>"; };
+		E918DEAF1DF8FAFC00A29E8C /* DHSeparateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSeparateTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				E918DEA11DF8EFCA00A29E8C /* AppDelegate.m */,
 				E918DEA21DF8EFCA00A29E8C /* ViewController.h */,
 				E918DEA31DF8EFCA00A29E8C /* ViewController.m */,
-				E918DEA91DF8F76000A29E8C /* DHSepatateTextField */,
+				E918DEAD1DF8FAFC00A29E8C /* DHSeparateTextField */,
 				E918DE731DF8EF4800A29E8C /* Main.storyboard */,
 				E918DE761DF8EF4900A29E8C /* Assets.xcassets */,
 				E918DE781DF8EF4900A29E8C /* LaunchScreen.storyboard */,
@@ -144,13 +144,13 @@
 			path = DHSeparateTextFieldUITests;
 			sourceTree = "<group>";
 		};
-		E918DEA91DF8F76000A29E8C /* DHSepatateTextField */ = {
+		E918DEAD1DF8FAFC00A29E8C /* DHSeparateTextField */ = {
 			isa = PBXGroup;
 			children = (
-				E918DEAA1DF8F76000A29E8C /* DHSepatateTextField.h */,
-				E918DEAB1DF8F76000A29E8C /* DHSepatateTextField.m */,
+				E918DEAE1DF8FAFC00A29E8C /* DHSeparateTextField.h */,
+				E918DEAF1DF8FAFC00A29E8C /* DHSeparateTextField.m */,
 			);
-			path = DHSepatateTextField;
+			path = DHSeparateTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E918DEAC1DF8F76000A29E8C /* DHSepatateTextField.m in Sources */,
 				E918DE6C1DF8EF4800A29E8C /* main.m in Sources */,
 				E918DEA51DF8EFCA00A29E8C /* ViewController.m in Sources */,
+				E918DEB01DF8FAFC00A29E8C /* DHSeparateTextField.m in Sources */,
 				E918DEA41DF8EFCA00A29E8C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

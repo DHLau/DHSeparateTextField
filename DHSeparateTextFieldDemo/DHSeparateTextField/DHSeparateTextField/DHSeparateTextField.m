@@ -1,17 +1,17 @@
 //
-//  DHSepatateTextField.m
+//  DHSeparateTextField.m
 //  DHSeparateTextField
 //
 //  Created by DHLau on 16/8/24.
 //  Copyright © 2016年 DHLau. All rights reserved.
 //
 
-#import "DHSepatateTextField.h"
+#import "DHSeparateTextField.h"
 
 #define SQUARE_FOCUS_COLOR [UIColor orangeColor]
 #define SQUARE_DEFAULT_COLOR [UIColor lightGrayColor]
 
-@interface DHSepatateTextField()<UITextFieldDelegate>
+@interface DHSeparateTextField()<UITextFieldDelegate>
 
 /** 输入框 */
 @property (nonatomic, strong) UITextField *textField;
@@ -24,12 +24,12 @@
 
 static const CGFloat commonMargin = 10;
 
-@implementation DHSepatateTextField
+@implementation DHSeparateTextField
 
 
 + (instancetype)textFieldWithSquareAmount:(NSInteger)squareAmount
 {
-    DHSepatateTextField *textField = [[DHSepatateTextField alloc] init];
+    DHSeparateTextField *textField = [[DHSeparateTextField alloc] init];
     textField.squareAmount = squareAmount == (0 || nil) ? 6 : squareAmount;
     return [[self alloc] init];
 }
